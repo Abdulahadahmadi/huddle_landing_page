@@ -22,13 +22,41 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-image: url('./images/bg-desktop.svg');
+    }
   </style>
 </head>
-<body>
+<body class="bg-purple-900">
 
 
-  <h1 class="text-6xl">Hello World!</h1>
+  <main class="container">
+    <div class="flex flex-col justify-center items-center md:flex-row lg:flex-row">
 
+      <div class="md:p-20">
+        <img class="w-32 h-16 m-3 md:w-40 lg:w-40" src="./images/logo.svg" alt="logo" />
+        <img class="p-7 " src="./images/illustration-mockups.svg" alt="logo" />
+      </div>
+
+      <div class="">
+        <div class="text-white text-center p-8 item-center">
+          <h1 class="text-2xl font-bold md:text-5xl md:px-30 md:pt-4 md:justify-center md:items-center">Build The Community Your Fans Will Love</h1>
+          <p class="my-2 text-sm md:px-40 md:pt-4">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion.</p>
+          <button class="bg-white text-purple-400 py-2 px-16 text-sm mt-10 md:mt-20 rounded-full shadow-xl hover:opacity-50">Register</button>
+        </div>
+        <div class="flex flex-row justify-center items-center mt-10">
+          <i class="w-12 h-12 px-2 hover:opacity-20"><a href="#Linkeding"><img src="./images/linkeding.png" /></a></i>
+          <i class="w-12 h-12 px-2 hover:opacity-20"><a href="#Linkeding"><img src="./images/instagram.png" /></a></i>
+          <i class="w-12 h-12 px-2 hover:opacity-20"><a href="#Linkeding"><img src="./images/twitter.png" /></a></i>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  
+<!-- 
   Build The Community Your Fans Will Love
 
   Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
@@ -41,6 +69,8 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
+
+
 </body>
 </html>
